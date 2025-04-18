@@ -59,7 +59,6 @@ export default function Home() {
         <h2 className="text-xl sm:text-2xl font-semibold text-blue-700">Contáctanos</h2>
         <p>📍 Dirección: Carabayllo - Lima</p>
         <p>📞 Teléfono: (01) 9078978</p>
-        <p>✉️ Correo: contacto@multicredito.pe</p>
         <button className="mt-4 bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full transition w-full sm:w-auto">
           Escríbenos
         </button>
