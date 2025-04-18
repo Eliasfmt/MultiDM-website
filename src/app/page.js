@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Home() {
@@ -18,9 +19,11 @@ export default function Home() {
         <p className="text-base sm:text-lg">
           Desde 2002 apoyando a microempresarios en Lima Norte
         </p>
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition w-full sm:w-auto">
-          Solicita tu préstamo hoy
-        </button>
+        <Link href="/solicitud">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition">
+            Solicita tu préstamo hoy
+          </button>
+        </Link>
       </section>
 
       {/* Section Template */}
