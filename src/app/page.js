@@ -19,11 +19,11 @@ export default function Home() {
         <p className="text-base sm:text-lg">
           Desde 2002 apoyando a microempresarios en Lima Norte
         </p>
-        <Link href="/solicitud">
+        {/* <Link href="/solicitud">
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition">
             Solicita tu préstamo hoy
           </button>
-        </Link>
+        </Link> */}
       </section>
 
       {/* Section Template */}
