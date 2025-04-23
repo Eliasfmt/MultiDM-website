@@ -8,7 +8,7 @@ export default function Home() {
     <main className="font-sans text-gray-800">
       {/* Logo Header */}
       <header className="bg-blue-900 text-white py-4 px-6 text-center text-2xl sm:text-3xl font-bold shadow">
-        Multicrédito DM
+        Multicredito DM
       </header>
 
       {/* Hero Section */}
